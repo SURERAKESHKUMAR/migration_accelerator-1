@@ -1,0 +1,216 @@
+{
+  "title": "TFS to GitHub Migration Assessment Report",
+  "repositories": [
+    {
+      "sno": 1,
+      "repoName": "$Clm.LynxClaimViewer",
+      "repoSizeMB": "483 MB",
+      "sensitiveDataOccurrences": 2,
+      "complexity": "Medium",
+      "reportUrl": "reports/clm-lynx.html"
+    },
+    {
+      "sno": 2,
+      "repoName": "$Ent.AdhocDocumentUtility",
+      "repoSizeMB": "124 MB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportUrl": "reports/adhoc.html"
+    },
+    {
+      "sno": 3,
+      "repoName": "$Ent.AgilePoint-Batch",
+      "repoSizeMB": "788 MB",
+      "sensitiveDataOccurrences": 5,
+      "complexity": "Hard",
+      "reportUrl": "reports/agilepoint-batch.html"
+    },
+    {
+      "sno": 4,
+      "repoName": "$Ent.AgilePoint-Paperless",
+      "repoSizeMB": "632 MB",
+      "sensitiveDataOccurrences": 3,
+      "complexity": "Medium",
+      "reportUrl": "reports/agilepoint-paperless.html"
+    },
+    {
+      "sno": 5,
+      "repoName": "$Ent.CDS-EDS",
+      "repoSizeMB": "211 MB",
+      "sensitiveDataOccurrences": 1,
+      "complexity": "Easy",
+      "reportLink": "reports/Ent.CDS-EDS.html"
+    },
+    {
+      "sno": 6,
+      "repoName": "$Ent.CheckProcessingUtility",
+      "repoSizeMB": "355 MB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Medium",
+      "reportLink": "reports/Ent.CheckProcessingUtility.html"
+    },
+    {
+      "sno": 7,
+      "repoName": "$Ent.HeaderCard",
+      "repoSizeMB": "47 MB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportLink": "reports/Ent.HeaderCard.html"
+    },    
+    {
+      "sno": 8,
+      "repoName": "$Ent.MCOCalculator",
+      "repoSizeMB": "198 MB",
+      "sensitiveDataOccurrences": 4,
+      "complexity": "Medium",
+      "reportLink": "reports/Ent.MCOCalculator.html"
+    },
+    {
+      "sno": 9,
+      "repoName": "$Ent.NumberGenerator",
+      "repoSizeMB": "74 MB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportLink": "reports/Ent.NumberGenerator.html"
+    },
+    {
+      "sno": 10,
+      "repoName": "$Ent.ProcessFiles",
+      "repoSizeMB": "542 MB",
+      "sensitiveDataOccurrences": 7,
+      "complexity": "Hard",
+      "reportLink": "reports/Ent.ProcessFiles.html"
+    },
+    {
+      "sno": 11,
+      "repoName": "$Ent.ProofOfMailBatch",
+      "repoSizeMB": "320 MB",
+      "sensitiveDataOccurrences": 1,
+      "complexity": "Medium",
+      "reportLink": "reports/Ent.ProofOfMailBatch.html"
+    },
+    {
+      "sno": 12,
+      "repoName": "$Ent.QAETracker",
+      "repoSizeMB": "88 MB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportLink": "reports/Ent.QAETracker.html"
+    },
+    
+    {
+      "sno": 13,
+      "repoName": "$Ent.SIS",
+      "repoSizeMB": "95 MB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportLink": "reports/Ent.SIS.html"
+    },
+    {
+      "sno": 14,
+      "repoName": "$Ent.SurveyBatch",
+      "repoSizeMB": "324 KB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportLink": "reports/Ent.SurveyBatch.html"
+    },
+    {
+      "sno": 15,
+      "repoName": "$FAC.ImpairmentRequest",
+      "repoSizeMB": "8 MB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportLink": "reports/FAC.ImpairmentRequest.html"
+    },
+    {
+      "sno": 16,
+      "repoName": "$GC.BulkInvoiceProcess",
+      "repoSizeMB": "564 KB",
+      "sensitiveDataOccurrences": 0,
+      "complexity": "Easy",
+      "reportLink": "reports/GC.BulkInvoiceProcess.html"
+    },
+    {
+      "sno": 17,
+      "repoName": "$GC.PIPDocMgmt",
+      "repoSizeMB": "118 MB",
+      "sensitiveDataOccurrences": 2,
+      "complexity": "Medium",
+      "reportLink": "reports/GC.PIPDocMgmt.html"
+    },
+    {
+      "sno": 18,
+      "repoName": "$Homeowners",
+      "repoSizeMB": "897 MB",
+      "sensitiveDataOccurrences": 7,
+      "complexity": "Hard",
+      "reportLink": "reports/Homeowners.html"
+    },
+    {
+      "sno": 19,
+      "repoName": "$IT.ApplicationsRepository",
+      "repoSizeMB": "357 MB",
+      "sensitiveDataOccurrences": 4,
+      "complexity": "Medium",
+      "reportLink": "reports/IT.ApplicationsRepository.html"
+    },
+    {
+      "sno": 20,
+      "repoName": "$It.ITKnowledgeBase",
+      "repoSizeMB": "50 MB",
+      "sensitiveDataOccurrences": 1,
+      "complexity": "Easy",
+      "reportLink": "reports/$It.ITKnowledgeBase.html"
+    },
+    {
+      "sno": 21,
+      "repoName": "$IT.XLRelease",
+      "repoSizeMB": "94 MB",
+      "sensitiveDataOccurrences": 3,
+      "complexity": "Medium",
+      "reportLink": "reports/IT.XLRelease.html"
+    },
+    {
+      "sno": 22,
+      "repoName": "$Pla.Monitor",
+      "repoSizeMB": "2.10 MB",
+      "sensitiveDataOccurrences": 1,
+      "complexity": "Easy",
+      "reportLink": "reports/Pla.Monitor.html"
+    },
+    {
+      "sno": 23,
+      "repoName": "$PLA.PersonalAutoUW-Rules",
+      "repoSizeMB": "537 MB",
+      "sensitiveDataOccurrences": 6,
+      "complexity": "Hard",
+      "reportLink": "reports/PLA.PersonalAutoUW-Rules.html"
+    },
+    {
+      "sno": 24,
+      "repoName": "$PLA.SpecialDividends",
+      "repoSizeMB": "3.8 MB",
+      "sensitiveDataOccurrences": 2,
+      "complexity": "Medium",
+      "reportLink": "reports/PLA.SpecialDividends.html"
+    },
+    {
+      "sno": 25,
+      "repoName": "$WC.TPALDAggregator",
+      "repoSizeMB": "37 MB",
+      "sensitiveDataOccurrences": 5,
+      "complexity": "Hard",
+      "reportLink": "reports/WC.TPALDAggregator.html"
+    },
+    {
+      "sno": 26,
+      "repoName": "$Ent.CDS-Predictive Model",
+      "repoSizeMB": "421 MB",
+      "sensitiveDataOccurrences": 8,
+      "complexity": "Hard",
+      "reportLink": "reports/Ent.CDS-Predictive Model.html"
+    }
+
+
+  ]
+}

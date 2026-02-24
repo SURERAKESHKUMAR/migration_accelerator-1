@@ -1,0 +1,271 @@
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\appsettings.Development.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\appsettings.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.staticwebassets.runtime.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.exe
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.deps.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.runtimeconfig.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.pdb
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\AWSSDK.Core.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\AWSSDK.Extensions.NETCore.Setup.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\AWSSDK.SecretsManager.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\envdte.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\envdte80.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Interop.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\SecretsScanner.Abstractions.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Secretes-Scanner.GitLeaks.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.csproj.AssemblyReference.cache
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.AssemblyInfoInputs.cache
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.AssemblyInfo.cs
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.csproj.CoreCompileInputs.cache
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.RazorAssemblyInfo.cache
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.RazorAssemblyInfo.cs
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets.build.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets.development.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.migration_accelerator.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.build.migration_accelerator.props
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildMultiTargeting.migration_accelerator.props
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildTransitive.migration_accelerator.props
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets.pack.json
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\scopedcss\bundle\migration_accelerator.styles.css
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\scopedcss\projectbundle\migration_accelerator.bundle.scp.css
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migratio.FDE589A3.Up2Date
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\refint\migration_accelerator.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.pdb
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.genruntimeconfig.cache
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\obj\Debug\net8.0-windows\ref\migration_accelerator.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+c:\Users\JadiRajKumar\OneDrive - ValueMomentum, Inc\Desktop\TFS_TO_GITGUB_MIGRATION_2026\migration_accelerator-master\migration_accelerator-master\migration_accelerator\bin\Debug\net8.0-windows\terraform\secrets.auto.tfvars.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\appsettings.Development.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\terraform\secrets.auto.tfvars.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.staticwebassets.runtime.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.exe
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.deps.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.runtimeconfig.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\migration_accelerator.pdb
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\AWSSDK.Core.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\AWSSDK.SecretsManager.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\envdte.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\envdte80.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Interop.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\SecretsScanner.Abstractions.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\Secretes-Scanner.GitLeaks.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.csproj.AssemblyReference.cache
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.AssemblyInfoInputs.cache
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.AssemblyInfo.cs
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.csproj.CoreCompileInputs.cache
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.RazorAssemblyInfo.cache
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.RazorAssemblyInfo.cs
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.sourcelink.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets.build.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets.development.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.migration_accelerator.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.build.migration_accelerator.props
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildMultiTargeting.migration_accelerator.props
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildTransitive.migration_accelerator.props
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\staticwebassets.pack.json
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\scopedcss\bundle\migration_accelerator.styles.css
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\scopedcss\projectbundle\migration_accelerator.bundle.scp.css
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migratio.FDE589A3.Up2Date
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\refint\migration_accelerator.dll
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.pdb
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\migration_accelerator.genruntimeconfig.cache
+C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\obj\Debug\net8.0-windows\ref\migration_accelerator.dll

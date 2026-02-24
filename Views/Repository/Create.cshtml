@@ -1,0 +1,62 @@
+﻿@model RepositoryViewModel
+
+@{
+    ViewData["Title"] = "Create Repository";
+}
+
+<h2>Create Repository</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-3">
+        <label asp-for="RepoName" class="form-label"></label>
+        <input asp-for="RepoName" class="form-control" placeholder="Enter repository name" />
+        <span asp-validation-for="RepoName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="form-label">Branches</label>
+        <div id="branches-container">
+            <div class="input-group mb-2">
+                <input name="Branches" class="form-control" placeholder="Enter branch name" />
+                <button type="button" class="btn btn-danger remove-branch">Remove</button>
+            </div>
+        </div>
+        <button type="button" id="add-branch" class="btn btn-secondary">Add Branch</button>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Repository</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const container = document.getElementById("branches-container");
+            const addButton = document.getElementById("add-branch");
+
+            // Add new branch input
+            addButton.addEventListener("click", function () {
+                const div = document.createElement("div");
+                div.className = "input-group mb-2";
+                div.innerHTML = `
+                    <input name="Branches" class="form-control" placeholder="Enter branch name" />
+                    <button type="button" class="btn btn-danger remove-branch">Remove</button>
+                `;
+                container.appendChild(div);
+            });
+
+            // Remove branch input
+            container.addEventListener("click", function (e) {
+                if (e.target && e.target.classList.contains("remove-branch")) {
+                    e.target.parentElement.remove();
+                }
+            });
+        });
+    </script>
+}

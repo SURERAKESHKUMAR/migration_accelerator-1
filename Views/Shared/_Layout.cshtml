@@ -1,0 +1,242 @@
+﻿@{
+    var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - migration_accelerator</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+    <style>
+        /* Layout */
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Topbar */
+        .topbar {
+            height: 60px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+
+            .topbar .header-logo {
+                position: absolute;
+                left: 15px;
+                display: flex;
+                align-items: center;
+            }
+
+        .njm-logo {
+            width: 120px;
+            height: auto;
+        }
+
+        /* Sidebar */
+        #sidebar {
+            width: 300px;
+            background-color: #0d6efd;
+            color: white;
+            flex-shrink: 0;
+            transition: all 0.3s;
+            padding: 1rem;
+        }
+
+            #sidebar.collapsed {
+                width: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            #sidebar .sidebar-menu {
+                list-style: none;
+                padding-left: 0;
+            }
+
+                #sidebar .sidebar-menu li a {
+                    display: block;
+                    color: white;
+                    text-decoration: none;
+                    padding: 0.5rem 1rem;
+                    border-radius: 4px;
+                }
+
+                    #sidebar .sidebar-menu li a.active,
+                    #sidebar .sidebar-menu li a:hover {
+                        background-color: #0056b3;
+                    }
+
+            #sidebar .submenu {
+                display: none;
+                padding-left: 1rem;
+            }
+
+                #sidebar .submenu.show {
+                    display: block;
+                }
+
+        /* Page content */
+        #content {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            background-color: #f8f9fa;
+        }
+
+       
+
+                #sidebar.collapsed {
+                    left: 0;
+                }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- Topbar -->
+        <nav class="topbar">
+            <div class="header-logo">
+                <img src="~/images/NJM.jpg" alt="NJM" class="njm-logo" />
+                <button id="toggleSidebar" class="btn btn-sm btn-outline-light ms-2">☰</button>
+            </div>
+            <h5 class="mb-0 fw-bold">Migration Accelerator</h5>
+        </nav>
+
+        <div class="d-flex" style="flex:1; overflow:hidden;">
+
+            <!-- Sidebar -->
+            <aside id="sidebar">
+                <ul class="sidebar-menu">
+                    <li>
+                        <a asp-controller="Home" asp-action="Index" class="@(controller == "Home" ? "active" : "")">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="MigrationReport" asp-action="MigrationReport" class="@(controller == "MigrationReport" ? "active" : "")">
+                            Migration Report
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white d-flex justify-content-between align-items-center"
+                           data-bs-toggle="collapse"
+                           href="#secretsMenu"
+                           role="button">
+
+                            <span> Secrets Migrator</span>
+                            <i class="bi bi-chevron-down toggle-icon"></i>
+                        </a>
+
+                        <div class="collapse" id="secretsMenu">
+                            <ul class="nav flex-column ms-3">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                       asp-controller="Scan"
+                                       asp-action="Index"> Secrets Scanner</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                       asp-controller="Secrets"
+                                       asp-action="Index">Migrate Secrets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                       asp-controller="Secrets"
+                                       asp-action="PreviewSecretesIndex">Preview Secrets</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white d-flex justify-content-between align-items-center"
+                           data-bs-toggle="collapse"
+                           href="#gitHubMenu"
+                           role="button">
+
+                            <span> GitHub Management</span>
+                            <i class="bi bi-chevron-down toggle-icon"></i>
+                        </a>
+
+                        <div class="collapse" id="gitHubMenu">
+                            <ul class="nav flex-column ms-3">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                       asp-controller="GitHub"
+                                       asp-action="Create">Repo Creation</a>
+                                </li>
+                                <li class="nav-link text-white">
+                                    <a class="nav-link text-white"
+                                       asp-controller="GitHub"
+                                       asp-action="CreateBranch">Branch Creation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a asp-controller="Employees" asp-action="Index" class="@(controller == "Employees" ? "active" : "")">
+                            Employee Management
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- Main Content -->
+            <div id="content">
+                @RenderBody()
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <script>
+        // Toastr
+        toastr.options = {
+            closeButton: true,
+            progressBar: true,
+            positionClass: "toast-top-right",
+            timeOut: 4000
+        };
+
+        @if (TempData["ToastMessage"] != null)
+        {
+                <text>
+                toastr['@TempData["ToastType"]'](@Html.Raw(System.Text.Json.JsonSerializer.Serialize(TempData["ToastMessage"])));
+                </text>
+        }
+
+        // Sidebar toggle
+        document.getElementById("toggleSidebar").addEventListener("click", function () {
+            document.getElementById("sidebar").classList.toggle("collapsed");
+        });
+
+        // Secrets submenu
+        function toggleSecrets() {
+            document.getElementById("secretsSubmenu").classList.toggle("show");
+        }
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,246 @@
+﻿@model migration_accelerator.Models.SecretsViewModel
+
+<div class="container-fluid mt-4">
+
+    <!-- Header -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div>
+                <h3 class="mb-0">Secrets Security Scanner</h3>
+                @if (!string.IsNullOrEmpty(Model.RepoName))
+                {
+                    <small class="text-muted">Repository: <b>@Model.RepoName</b></small>
+                }
+            </div>
+            @if (!string.IsNullOrEmpty(Model.ScanDate))
+            {
+                <span class="badge bg-dark p-2">Scan Date: @Model.ScanDate</span>
+            }
+        </div>
+    </div>
+
+    <!-- Scan Form -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form asp-action="ScanSecrets" method="post" class="row g-2">
+                <div class="col-md-5">
+                    <input type="text" name="folderPath" placeholder="Folder Path" class="form-control" required />
+                </div>
+                <div class="col-md-5">
+                    <input type="text" name="repoName" placeholder="Repository Name" class="form-control" required />
+                </div>
+                <div class="col-md-2 d-grid">
+                    <button type="submit" class="btn btn-primary">Scan Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Repo Dropdown -->
+    @if (Model.AllRepos?.Any() == true)
+    {
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <form method="get" asp-action="Index">
+                    <label class="form-label">Select Repository</label>
+                    <select name="selectedRepo" class="form-select" onchange="this.form.submit()">
+                        <option value="">-- Select Repo --</option>
+                        @foreach (var repo in Model.AllRepos)
+                        {
+                            <option value="@repo" selected="@(Model.RepoName == repo ? "selected" : null)">
+                                @repo
+                            </option>
+                        }
+                    </select>
+                </form>
+            </div>
+        </div>
+    }
+
+    <!-- Secrets Table -->
+    @if (Model.Matches?.Any() == true)
+    {
+        <div class="card shadow-sm">
+            <div class="card-body">
+
+                <!-- Filter -->
+                <input type="text" id="secretFilter" class="form-control mb-3"
+                    placeholder="🔍 Filter secrets by key or value..." />
+
+                <!-- Migrate Button (dynamic) -->
+                <div id="migrateBtnContainer" class="text-end mb-2" style="display:none;">
+                    <button class="btn btn-success" onclick="openAwsModal()">
+                        Migrate Secrets to AWS
+                    </button>
+                </div>
+
+                <div class="table-responsive" style="max-height: 500px; overflow-y: auto;">
+                    <table id="secretsTable" class="table table-hover align-middle">
+                        <thead class="table-dark sticky-top">
+                            <tr>
+                                <th style="width:30%">Secret Key</th>
+                                <th>Secret Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var match in Model.Matches)
+                            {
+                                <tr>
+                                    <td class="fw-semibold text-primary">@match.Key</td>
+                                    <td>
+                                        <div class="secret-box">@match.Value</div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- No filter result -->
+                <div id="noFilterResult" class="alert alert-warning mt-2" style="display:none;">
+                    No secrets match the filter.
+                </div>
+
+            </div>
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(Model.RepoName))
+    {
+        <div id="noSecretsMessage" class="alert alert-success">
+            No secrets found in this repository.
+        </div>
+    }
+
+</div>
+
+<style>
+    .secret-box {
+        background: #f4f6f8;
+        border: 1px solid #dcdcdc;
+        padding: 8px 12px;
+        border-radius: 6px;
+        font-family: Consolas, monospace;
+        word-break: break-all;
+        max-height: 60px;
+        overflow-y: auto;
+    }
+
+    table tbody tr:hover {
+        background-color: #f1f7ff;
+    }
+
+    .sticky-top {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+</style>
+
+<!-- AWS Modal -->
+<div class="modal fade" id="awsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title">Migrate Secrets to AWS Secrets Manager</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Environment</label>
+                        <select id="envSelect" class="form-select">
+                            <option>Dev</option>
+                            <option>QA</option>
+                            <option>UAT</option>
+                            <option>Prod</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">AWS Secret Name</label>
+                        <input type="text" id="awsSecretName" class="form-control"
+                            placeholder="Enter AWS Secret Name" />
+                        <small class="text-muted">
+                            Default: repoName/environment/appsettings (editable)
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-success" onclick="migrateToAws()">Migrate Now</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const filterInput = document.getElementById('secretFilter');
+
+        function updateUI() {
+            var rows = document.querySelectorAll('#secretsTable tbody tr');
+            var anyVisible = false;
+
+            rows.forEach(row => {
+                if (row.style.display !== 'none') anyVisible = true;
+            });
+
+            document.getElementById('migrateBtnContainer').style.display = anyVisible ? 'block' : 'none';
+            document.getElementById('noFilterResult').style.display = anyVisible ? 'none' : 'block';
+        }
+
+        filterInput?.addEventListener('keyup', function () {
+            var filter = this.value.toLowerCase();
+            var rows = document.querySelectorAll('#secretsTable tbody tr');
+
+            rows.forEach(row => {
+                var key = row.cells[0].innerText.toLowerCase();
+                var value = row.cells[1].innerText.toLowerCase();
+                row.style.display = (key.includes(filter) || value.includes(filter)) ? '' : 'none';
+            });
+
+            updateUI();
+        });
+
+        window.addEventListener('load', updateUI);
+
+        function openAwsModal() {
+            new bootstrap.Modal(document.getElementById('awsModal')).show();
+        }
+
+        function migrateToAws() {
+            var secrets = [];
+
+            document.querySelectorAll('#secretsTable tbody tr').forEach(row => {
+                if (row.style.display !== 'none') {
+                    secrets.push({
+                        key: row.cells[0].innerText.trim(),
+                        value: row.cells[1].innerText.trim()
+                    });
+                }
+            });
+
+            fetch('/Secrets/MigrateToAws', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    environment: document.getElementById('envSelect').value,
+                    secretName: document.getElementById('awsSecretName').value,
+                    secrets: secrets
+                })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    alert(data.message);
+                    location.reload();
+                });
+        }
+    </script>
+    
+}

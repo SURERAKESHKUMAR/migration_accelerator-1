@@ -1,0 +1,109 @@
+is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.TargetFramework = net8.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = migration_accelerator
+build_property.RootNamespace = migration_accelerator
+build_property.ProjectDir = C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\JadiRajKumar\migration_accelerator\migration_accelerator
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/GitHub/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l0SHViXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/GitHub/CreateBranch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2l0SHViXENyZWF0ZUJyYW5jaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/MigrationReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlncmF0aW9uUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/MigrationReport/MigrationReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlncmF0aW9uUmVwb3J0XE1pZ3JhdGlvblJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/MigrationReport/ViewReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlncmF0aW9uUmVwb3J0XFZpZXdSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Repository/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3NpdG9yeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Scan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Scan/ScanSecretes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NhblxTY2FuU2VjcmV0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Secrets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Secrets/PreviewSecretesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjcmV0c1xQcmV2aWV3U2VjcmV0ZXNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JadiRajKumar/migration_accelerator/migration_accelerator/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vhpond2ji4

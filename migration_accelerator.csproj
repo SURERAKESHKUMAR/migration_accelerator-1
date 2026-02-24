@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="envdte" Version="17.14.40260" />
+		<PackageReference Include="envdte80" Version="17.14.40260" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  <PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="SecretsScanner.Gitleaks" Version="1.0.1" />
+		<PackageReference Include="SecretsScanner.Abstractions" Version="1.0.0" />
+		<PackageReference Include="AWSSDK.SecretsManager" Version="3.7.1.16" />
+		<PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.301" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="System.IO.Compression.ZipFile" Version="4.3.0" />
+		
+
+
+
+
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\scripts\" />
+	  <Folder Include="wwwroot\scan-results\" />
+	</ItemGroup>
+
+</Project>

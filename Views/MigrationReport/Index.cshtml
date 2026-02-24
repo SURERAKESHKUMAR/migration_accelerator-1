@@ -1,0 +1,32 @@
+﻿@model dynamic
+
+<h2>Migration Assessment</h2>
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>#</th>
+        <th>Repo</th>
+        <th>Size</th>
+        <th>Secrets</th>
+        <th>Complexity</th>
+        <th>Report</th>
+    </tr>
+
+    @foreach (var r in Model)
+    {
+        <tr>
+            <td>@r.sno</td>
+            <td>@r.repoName</td>
+            <td>@r.repoSizeMB</td>
+            <td>@r.sensitiveDataOccurrences</td>
+            <td>@r.complexity</td>
+            <td class="text-center">
+                <a class="view-report"
+                   href="/scan-results/@(r.repoName).json"
+                   target="_blank">
+                    View Report
+                </a>
+            </td>
+        </tr>
+    }
+</table>

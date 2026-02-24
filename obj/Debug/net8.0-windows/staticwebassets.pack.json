@@ -1,0 +1,301 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\obj\\Debug\\net8.0-windows\\scopedcss\\projectbundle\\migration_accelerator.bundle.scp.css",
+      "PackagePath": "staticwebassets\\migration_accelerator.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\data\\migration-report.json",
+      "PackagePath": "staticwebassets\\data\\migration-report.json"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\data\\migrations_report.json",
+      "PackagePath": "staticwebassets\\data\\migrations_report.json"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\data\\update-migration-report.ps1",
+      "PackagePath": "staticwebassets\\data\\update-migration-report.ps1"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\data\\wrap-gitleaks-report.ps1",
+      "PackagePath": "staticwebassets\\data\\wrap-gitleaks-report.ps1"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\images\\NJM.jpg",
+      "PackagePath": "staticwebassets\\images\\NJM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\images\\valuemomentum.png",
+      "PackagePath": "staticwebassets\\images\\valuemomentum.png"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\scan-results\\SecretsScanner.MvcTest.json",
+      "PackagePath": "staticwebassets\\scan-results\\SecretsScanner.MvcTest.json"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\scan-results\\mongo-web.json",
+      "PackagePath": "staticwebassets\\scan-results\\mongo-web.json"
+    },
+    {
+      "Id": "C:\\Users\\JadiRajKumar\\migration_accelerator\\migration_accelerator\\wwwroot\\scripts\\scan-repo.bat",
+      "PackagePath": "staticwebassets\\scripts\\scan-repo.bat"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows\\staticwebassets\\msbuild.build.migration_accelerator.props",
+      "PackagePath": "build\\migration_accelerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows\\staticwebassets\\msbuild.buildMultiTargeting.migration_accelerator.props",
+      "PackagePath": "buildMultiTargeting\\migration_accelerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows\\staticwebassets\\msbuild.buildTransitive.migration_accelerator.props",
+      "PackagePath": "buildTransitive\\migration_accelerator.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows\\staticwebassets\\msbuild.migration_accelerator.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

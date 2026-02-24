@@ -1,0 +1,35 @@
+﻿@model CreateRepoViewModel
+
+<h2>Create GitHub Repository</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+
+    <div class="mb-3">
+        <label>Repository Name</label>
+        <input asp-for="RepoName" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Description</label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Upload File (Optional)</label>
+        <input type="file" asp-for="UploadFile" class="form-control" />
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="IsPrivate" class="form-check-input" />
+        <label class="form-check-label">Private Repo</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Repo</button>
+</form>

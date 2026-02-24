@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@model AppSettings
+
+<div class="container mt-4">
+    <div class="card shadow-lg">
+        <div class="card-header bg-dark text-white">
+            <h4>🔐 AWS Secrets Loaded into Application</h4>
+        </div>
+
+        <div class="card-body">
+
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Secret Key</th>
+                        <th>Secret Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Connection String</td>
+                        <td class="text-break">@Model.ConnectionString</td>
+                    </tr>
+                    <tr>
+                        <td>OnBaseURL</td>
+                        <td>@Model.OnBaseURL</td>
+                    </tr>
+                    <tr>
+                        <td>GC_OnBaseURL</td>
+                        <td>@Model.GC_OnBaseURL</td>
+                    </tr>
+                    <tr>
+                        <td>ShowXMLs</td>
+                        <td>@Model.ShowXMLs</td>
+                    </tr>
+                    <tr>
+                        <td>ShowSimulator</td>
+                        <td>@Model.ShowSimulator</td>
+                    </tr>
+                    <tr>
+                        <td>LogDocumentsInDB</td>
+                        <td>@Model.LogDocumentsInDB</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>

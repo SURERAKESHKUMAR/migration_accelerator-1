@@ -1,0 +1,105 @@
+﻿@model MigrationReportViewModel
+
+@{
+    ViewData["Title"] = "Migration Assessment Report";
+}
+
+<div class="card shadow-lg border-0">
+    <div class="card-header bg-white border-bottom d-flex align-items-center px-4">
+
+        <!-- LEFT: LOGO -->
+        <div class="header-logo">
+            <img src="~/images/valuemomentum.png" alt="ValueMomentum" class="vm-logo" />
+        </div>
+
+        <!-- CENTER: TITLE -->
+        <div class="header-title text-center flex-grow-1">
+            <h4 class="mb-0 fw-bold">
+                TFS to GitHub Migration Assessment Report
+            </h4>
+        </div>
+
+    </div>
+
+
+    <div class="card-body">
+
+        <table class="table table-bordered table-hover align-middle">
+
+            <!-- ================= HEADER ================= -->
+            <thead class="text-center">
+                <tr>
+                    <th class="bg-primary text-white py-3">SNO</th>
+                    <th class="bg-primary text-white py-3">REPO NAME</th>
+                    <th class="bg-primary text-white py-3">REPO SIZE</th>
+                    <th class="bg-primary text-white py-3 text-wrap" style="width:160px;">
+                        SENSITIVE DATA OCCURRENCES
+                    </th>
+                    <th class="bg-primary text-white py-3">MIGRATION</th>
+                    <th class="bg-primary text-white py-3">COMPLEXITY</th>
+                    <th class="bg-primary text-white py-3">REPORT</th>
+                </tr>
+            </thead>
+
+            <!-- ================= BODY ================= -->
+            <tbody>
+                @for (int i = 0; i < Model.Repositories.Count; i++)
+                {
+                    var repo = Model.Repositories[i];
+                    var rowClass = i % 2 == 0 ? "table-light" : "table-secondary";
+
+                    <tr class="@rowClass">
+
+                        <td class="text-center fw-bold">
+                            @repo.Sno
+                        </td>
+
+                        <td>
+                            <strong>@repo.RepoName</strong>
+                        </td>
+
+                        <td class="text-center">
+                            @repo.repoSizeMB
+                        </td>
+
+                        <td class="text-center">
+                            <span class="badge
+                                                            @(repo.sensitiveDataOccurrences == 0
+                                                                                                                                                                                                                                                                          ? "bg-success"
+                                                                                                                                                                                                                                                                          : "bg-warning text-dark")">
+                                @repo.sensitiveDataOccurrences
+                            </span>
+                        </td>
+                        <!-- ✅ MIGRATION (YES FOR ALL ROWS) -->
+                        <td class="text-center">
+                            <span class="badge bg-success">
+                                Yes
+                            </span>
+                        </td>
+                        <td class="text-center">
+                            <span class="badge
+                                                            @(repo.Complexity == "Easy" ? "bg-success" :
+                                                                                                                                                                                                                                                                          repo.Complexity == "Medium" ? "bg-warning text-dark" :
+                                                                                                                                                                                                                                                                          "bg-danger")">
+                                @repo.Complexity
+                            </span>
+                        </td>
+
+                        <td class="text-center">
+                            <a class="view-report"
+                               href="/MigrationReport/ViewReport?repoName=@(Uri.EscapeDataString(repo.RepoName))"
+                               target="_blank">
+                                View Report
+                            </a>
+                        </td>
+
+
+
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+</div>

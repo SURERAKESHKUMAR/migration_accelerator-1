@@ -1,0 +1,58 @@
+﻿@model CreateBranchViewModel
+
+<h2>Create Feature Branch</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form asp-action="CreateBranch" method="post">
+    <div class="mb-3">
+        <label>Repository</label>
+        <select asp-for="RepoName" id="repoDropdown" class="form-control">
+            <option value="">-- Select Repo --</option>
+            @foreach (var repo in Model.Repositories)
+            {
+                <option value="@repo">@repo</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Source Branch</label>
+        <select asp-for="SourceBranch" id="branchDropdown" class="form-control">
+            <option value="">-- Select Branch --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>New Feature Branch</label>
+        <input asp-for="NewBranchName" class="form-control" placeholder="feature/login" />
+    </div>
+
+    <button class="btn btn-primary">Create Branch</button>
+</form>
+
+@section Scripts {
+    <script>
+        document.getElementById("repoDropdown").addEventListener("change", function () {
+            var repo = this.value;
+
+            fetch('/GitHub/GetBranches?repoName=' + repo)
+                .then(res => res.json())
+                .then(data => {
+                    var dropdown = document.getElementById("branchDropdown");
+                    dropdown.innerHTML = '<option value="">-- Select Branch --</option>';
+
+                    data.forEach(b => {
+                        dropdown.innerHTML += `<option value="${b}">${b}</option>`;
+                    });
+                });
+        });
+    </script>
+}
