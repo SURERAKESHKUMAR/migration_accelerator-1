@@ -1,0 +1,477 @@
+# Migration Accelerator
+
+## Overview
+
+A comprehensive enterprise-grade cloud migration platform designed to streamline infrastructure migration and deployment workflows. This service virtualization solution enables development teams to manage, automate, and orchestrate cloud migrations across multiple environments without dependency on manual infrastructure configuration.
+
+## Key Features
+
+**Infrastructure as Code (IaC) Automation**: Seamlessly create and manage Terraform-based infrastructure configurations for automated cloud deployments
+
+**Secrets Management Integration**: Secure credential management through AWS Secrets Manager with automatic injection into application pipeline
+
+**Repository Security Scanning**: Automated secret detection and vulnerability scanning using Gitleaks across GitHub repositories
+
+**GitHub Integration**: Direct integration with GitHub API for repository analysis, configuration retrieval, and automated workflows
+
+**Multi-Environment Support**: Segregate migration configurations across Development, Test, Staging, and Production environments
+
+**Database Management**: Entity Framework Core with SQL Server support for persistent configuration and migration state tracking
+
+**Background Processing**: Asynchronous Terraform execution and scheduled updates through hosted background services
+
+**Centralized Dashboard**: Web-based interface for viewing, managing, and orchestrating migration workflows
+
+## Use Cases
+
+**Accelerated Cloud Migrations**: Reduce migration timelines through automated infrastructure provisioning and configuration management
+
+**Infrastructure Standardization**: Enforce consistent infrastructure patterns across teams and environments using Infrastructure as Code
+
+**Secrets Governance**: Centralized credential management with audit trails and automated rotation capabilities
+
+**Security Compliance**: Automated scanning for exposed secrets and compliance violations before deployment
+
+**DevOps Automation**: Streamline deployment pipelines with integrated Terraform execution and GitHub workflows
+
+**Multi-Cloud Strategy**: Support complex migrations across multiple cloud environments with consistent tooling
+
+## Architecture
+
+┌─────────────────────────────────────────────────────────────┐ │ Migration Accelerator Platform │ ├─────────────────────────────────────────────────────────────┤ │ │ │ ┌──────────────────┐ ┌──────────────────┐ │ │ │ Web Interface │ │ Admin Portal │ │ │ │ (MVC Views) │ │ (Dashboard) │ │ │ └────────┬─────────┘ └────────┬─────────┘ │ │ │ │ │ │ ┌────────▼─────────────────────────▼────────┐ │ │ │ Controllers & Service Layer │ │ │ │ ├─ GitHub Service │ │ │ │ ├─ AWS Secrets Service │ │ │ │ ├─ Terraform Executor │ │ │ │ ├─ Scan Service (Gitleaks) │ │ │ │ └─ Background Services │ │ │ └────────┬─────────────────────────┬────────┘ │ │ │ │ │ │ ┌────────▼──┐ ┌──────────▼───────┐ │ │ │ SQL Server│ │ AWS Services │ │ │ │ Database │ │ ├─ Secrets Mgr │ │ │ └───────────┘ │ └─ IAM │ │ │ └──────────────────┘ │ │ ┌──────────────────────────────────────┐ │ │ │ Infrastructure as Code (Terraform) │ │ │ │ - Execution Engine │ │ │ │ - State Management │ │ │ └──────────────────────────────────────┘ │ └─────────────────────────────────────────────────────────────┘
+
+Code
+
+The platform consists of four core components:
+
+### 1. Web Interface (Program.cs & Controllers)
+ASP.NET Core MVC application serving as the primary user interface for configuration management, testing, and migration orchestration. Built on .NET 8.0 with modern web standards.
+
+### 2. Service Layer (Services Directory)
+Business logic implementation for GitHub integration, AWS Secrets management, Terraform execution, and security scanning using established design patterns.
+
+### 3. Data Persistence (Data Directory & Models)
+Entity Framework Core integration with SQL Server for storing migration configurations, audit logs, and system state across environment lifecycles.
+
+### 4. Background Scheduler (TerraformBackgroundService)
+Asynchronous processing engine for long-running Terraform executions and automated configuration synchronization across environments.
+
+## Technical Requirements
+
+### System Requirements
+- **.NET Runtime**: .NET 8.0 or higher
+- **Database**: SQL Server 2019 or later
+- **Operating System**: Windows/Linux with .NET support
+- **Memory**: Minimum 2GB RAM recommended
+- **Storage**: Sufficient space for Terraform state files and logs
+
+### Cloud Requirements
+- **AWS Account**: For Secrets Manager access
+- **GitHub Account**: For repository integration
+- **Terraform CLI**: Version 1.0+ for infrastructure execution
+
+### Dependencies
+- Entity Framework Core 8.0.0
+- Microsoft.EntityFrameworkCore.SqlServer 8.0.0
+- AWS SDK for .NET (AWSSDK.SecretsManager 3.7.1.16)
+- SecretsScanner.Gitleaks 1.0.1
+- Newtonsoft.Json 13.0.4
+- System.IO.Compression.ZipFile 4.3.0
+
+## Installation
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/SURERAKESHKUMAR/migration_accelerator-1.git
+cd migration_accelerator-1
+2. Install Dependencies
+bash
+dotnet restore
+3. Database Configuration
+Database credentials are configured in appsettings.json. Update connection parameters for your environment:
+
+JSON
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER;Database=migration_accelerator;User Id=YOUR_USER;Password=YOUR_PASSWORD;"
+  },
+  "AWS": {
+    "Region": "us-east-1",
+    "SecretName": "your-secret-name"
+  }
+}
+4. AWS Secrets Manager Setup
+The application uses AWS Secrets Manager for credential management. Configure your secret:
+
+bash
+# Set AWS credentials
+aws configure
+
+# Create/Update secret in Secrets Manager
+aws secretsmanager create-secret \
+  --name migration_accelerator/secrets \
+  --secret-string '{"DbPassword":"your-password","ApiKey":"your-key"}'
+5. Initialize Database
+The application automatically creates required tables on first run via Entity Framework Core migrations:
+
+bash
+dotnet ef database update
+6. Build Application
+bash
+dotnet build
+Usage
+Starting the Application
+Launch Web Interface:
+
+bash
+dotnet run
+Access at: https://localhost:5001
+
+Configure Logging: Review appsettings.json for logging configuration:
+
+JSON
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
+Core Workflow
+1. Configure Migration Source
+Enter source API endpoint or configuration source
+Select target cloud environment (Development, Test, Staging, Production)
+Set authentication credentials using AWS Secrets Manager
+Define request parameters (headers, body, query strings)
+2. Security Scanning
+Initiate automated secret scanning via Gitleaks
+Review detected vulnerabilities and exposed credentials
+Remediate security issues before deployment
+Validate clean scan status
+3. Infrastructure Planning
+Create Terraform configurations for target environment
+Define resource requirements and specifications
+Configure environment-specific variables
+Review infrastructure diagrams and dependencies
+4. Execution & Deployment
+Execute Terraform plan for infrastructure preview
+Apply Terraform configurations for actual provisioning
+Monitor execution logs and status in real-time
+Rollback if deployment issues detected
+5. Post-Migration Validation
+Verify infrastructure health and connectivity
+Validate application compatibility and functionality
+Monitor performance metrics and resource utilization
+Document migration results and lessons learned
+Accessing Migration Services
+Migration endpoints are accessible through the web interface dashboard:
+
+Code
+https://your-app-domain/Home/Index
+Key pages:
+
+Dashboard: Overview of all active migrations
+Configuration: Create and manage migration profiles
+Execution: Monitor Terraform deployments
+Security: Review scanning results and vulnerabilities
+Database Schema
+service_virtualisation Table
+Column	Type	Constraints	Description
+id	SERIAL	PRIMARY KEY	Unique record identifier
+name	VARCHAR(255)	NOT NULL	Migration profile name
+description	TEXT	-	Detailed profile description
+original_url	TEXT	NOT NULL	Source configuration endpoint
+operation	VARCHAR(50)	-	HTTP method
+routing_url	TEXT	NOT NULL	Terraform state path
+headers	TEXT	-	JSON-encoded request headers
+parameters	TEXT	-	JSON-encoded configuration parameters
+response	JSON	-	Last known infrastructure state
+api_details	TEXT	-	Additional metadata
+lob	VARCHAR(100)	-	Line of business
+environment	VARCHAR(50)	-	Target deployment environment
+created_at	TIMESTAMP	DEFAULT NOW()	Profile creation timestamp
+updated_at	TIMESTAMP	DEFAULT NOW()	Last modification timestamp
+Core Modules
+Program.cs - Application Startup
+ASP.NET Core pipeline configuration
+Service registration (DI container)
+Middleware setup (authentication, routing, logging)
+Environment-specific configuration loading
+AwsSecretsService - Secrets Management
+Functions:
+
+GetSecretAsync(): Retrieve secrets from AWS Secrets Manager
+RefreshSecretCache(): Update cached credentials
+MapSecretsToConfiguration(): Inject secrets into application configuration
+GitHubService - Repository Integration
+Functions:
+
+GetRepositoryAsync(): Retrieve repository metadata
+ListRepositoriesAsync(): Enumerate GitHub repositories
+GetFileContentAsync(): Retrieve file contents from repository
+TerraformExecutor - Infrastructure Execution
+Functions:
+
+PlanAsync(): Preview infrastructure changes
+ApplyAsync(): Provision infrastructure resources
+DestroyAsync(): Teardown infrastructure
+GetStateAsync(): Retrieve current infrastructure state
+GitleaksScanner - Security Scanning
+Functions:
+
+ScanRepository(): Perform secret detection
+GenerateReport(): Create vulnerability report
+ValidateConfiguration(): Check for exposed credentials
+Configuration Files
+appsettings.json
+Primary configuration file containing:
+
+JSON
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER;Database=migration_accelerator;User Id=YOUR_USER;Password=YOUR_PASSWORD;"
+  },
+  "AWS": {
+    "Region": "us-east-1",
+    "SecretName": "migration_accelerator/secrets"
+  },
+  "GitHub": {
+    "BaseUrl": "https://api.github.com/",
+    "Token": "{{GitHubToken}}"
+  },
+  "AppSettings": {
+    "OnBaseURL": "{{OnBaseURL}}",
+    "GC_OnBaseURL": "{{GC_OnBaseURL}}",
+    "ShowXMLs": "{{ShowXMLs}}",
+    "ShowSimulator": "{{ShowSimulator}}",
+    "LogDocumentsInDB": "{{LogDocumentsInDB}}"
+  }
+}
+appsettings.Development.json
+Development-specific overrides with verbose logging and relaxed security
+
+migration_accelerator.csproj
+Project file with dependencies and build configuration
+
+Best Practices
+Naming Conventions
+Use descriptive, action-oriented names (e.g., "Migrate Customer Database", "Deploy API Gateway")
+Include environment identifier in migration profile names
+Follow Team/Project/Environment naming pattern
+Document purpose and migration dependencies in description field
+Security Guidelines
+Credential Management: Never hardcode credentials; use AWS Secrets Manager exclusively
+Secret Scanning: Always run Gitleaks scanning before production deployments
+Access Control: Implement role-based access control (RBAC) for sensitive operations
+Audit Logging: Enable comprehensive audit trails for compliance tracking
+Network Security: Use VPC and security groups to restrict access
+Migration Planning
+Validate all configurations in non-production environments first
+Maintain rollback procedures for each migration stage
+Document dependencies between infrastructure components
+Test disaster recovery and failover scenarios
+Implement gradual rollout strategy (canary deployments)
+Maintenance & Monitoring
+Run background scheduler continuously to maintain configuration freshness
+Monitor execution logs for API failures and issues
+Periodically review and update obsolete migration profiles
+Document all migration decisions and architecture choices
+Conduct post-migration reviews and lessons learned sessions
+Organization & Governance
+Leverage LOB field to group related migrations
+Use environment field to segregate profiles by deployment stage
+Maintain consistent naming conventions across all teams
+Implement change management procedures for production migrations
+Establish Service Level Agreements (SLAs) for migration timelines
+Troubleshooting
+Database Connection Issues
+Symptoms: Cannot connect to SQL Server database
+
+Resolution Steps:
+
+Verify SQL Server is running and accessible: sqlcmd -S SERVER -U USER -P PASSWORD
+Check connection string in appsettings.json for typos
+Ensure database user has appropriate permissions: GRANT SELECT, INSERT, UPDATE, DELETE ON DATABASE::migration_accelerator TO [USER]
+Confirm firewall rules allow database port access (typically 1433)
+Review Entity Framework logs: Enable-Migrations -Verbose
+AWS Secrets Manager Issues
+Symptoms: Failed to retrieve secrets from AWS
+
+Resolution Steps:
+
+Verify AWS credentials are configured: aws sts get-caller-identity
+Check IAM permissions for Secrets Manager: aws secretsmanager describe-secret --secret-id your-secret
+Confirm secret name matches configuration in appsettings.json
+Verify region is correct and secret exists in that region
+Check AWS CloudWatch logs for detailed error messages
+Terraform Execution Failures
+Symptoms: Infrastructure provisioning fails or hangs
+
+Resolution Steps:
+
+Verify Terraform CLI is installed: terraform --version
+Check Terraform files in /terraform directory for syntax errors: terraform validate
+Confirm AWS credentials and permissions for required resources
+Review Terraform state file for conflicts: terraform state list
+Check application logs for execution errors and stack traces
+Test Terraform manually: terraform plan -out=tfplan
+GitHub Integration Issues
+Symptoms: Cannot connect to GitHub repositories
+
+Resolution Steps:
+
+Verify GitHub Personal Access Token is valid and has required scopes
+Test GitHub connectivity: curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/user
+Confirm repository is accessible with provided credentials
+Check network connectivity and firewall rules
+Review GitHub API rate limits: curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/rate_limit
+Performance Issues
+Symptoms: Slow page loads or timeouts during migration execution
+
+Resolution Steps:
+
+Check database query performance: Enable SQL Server query analyzer
+Monitor background service execution time in logs
+Increase timeout settings for long-running Terraform operations
+Scale database resources if under heavy load
+Review application memory usage and adjust if needed
+Consider implementing caching for frequently accessed configurations
+Stale Configuration Data
+Symptoms: Infrastructure state doesn't match actual resources
+
+Resolution Steps:
+
+Verify background scheduler is running
+Check last update timestamp in dashboard
+Manually trigger configuration refresh
+Confirm source APIs/repositories are accessible
+Review scheduler logs for synchronization errors
+Run terraform refresh to sync state with actual infrastructure
+Deployment
+Recommended Deployment Platforms
+Platform	Suitability	Notes
+Azure App Service	⭐⭐⭐⭐⭐	Native .NET support, integrated with Azure ecosystem
+AWS Elastic Beanstalk	⭐⭐⭐⭐	Good for AWS-centric deployments, auto-scaling
+AWS EC2	⭐⭐⭐⭐	Maximum control, manual scaling required
+Kubernetes (AKS/EKS)	⭐⭐⭐⭐	Enterprise deployments, complex setup
+Docker Containers	⭐⭐⭐⭐	Excellent for CI/CD pipelines
+On-Premises IIS	⭐⭐⭐	Legacy environments, manual management
+Deployment Steps (Azure App Service)
+1. Prepare for Deployment
+
+bash
+# Create publish profile
+dotnet publish -c Release -o ./publish
+2. Create App Service
+
+bash
+az appservice plan create \
+  --name migration-accelerator-plan \
+  --resource-group your-rg \
+  --sku B2
+3. Deploy Application
+
+bash
+az webapp create \
+  --resource-group your-rg \
+  --plan migration-accelerator-plan \
+  --name migration-accelerator-app
+4. Configure Application Settings
+
+bash
+az webapp config appsettings set \
+  --resource-group your-rg \
+  --name migration-accelerator-app \
+  --settings AWS__Region=us-east-1 \
+  AWS__SecretName=your-secret
+5. Deploy Package
+
+bash
+az webapp up \
+  --resource-group your-rg \
+  --name migration-accelerator-app \
+  --plan migration-accelerator-plan
+Docker Deployment
+Create Dockerfile:
+
+Dockerfile
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY ./publish .
+EXPOSE 80
+ENTRYPOINT ["dotnet", "migration_accelerator.dll"]
+Build and Run:
+
+bash
+docker build -t migration-accelerator:latest .
+docker run -p 8080:80 \
+  -e AWS__Region=us-east-1 \
+  -e AWS__SecretName=your-secret \
+  migration-accelerator:latest
+Logging & Monitoring
+Application Logs
+The application generates detailed logs configured in appsettings.json:
+
+Information: General application flow and milestone events
+Warning: Potentially problematic situations (deprecated APIs, missing optional configs)
+Error: Error conditions and exceptions
+Debug: Detailed diagnostic information (development only)
+Viewing Logs
+Console Output:
+
+bash
+dotnet run
+Application Insights (if configured): Access Azure Portal → Application Insights → Logs
+
+File Logging (if configured):
+
+bash
+tail -f logs/application.log
+Key Metrics to Monitor
+API response times and latency
+Database query performance
+Terraform execution duration
+Secret rotation frequency
+Failed migration attempts
+Security scanning vulnerability counts
+Background service uptime
+Future Enhancements
+ Advanced infrastructure cost estimation and optimization
+ Multi-cloud provider support (Azure, GCP)
+ Automated rollback capabilities with health checks
+ Real-time infrastructure monitoring dashboards
+ Machine learning for migration pattern optimization
+ Enhanced collaboration features with approval workflows
+ Comprehensive audit trail with immutable logs
+ Integration with ServiceNow and Jira for change tracking
+ Custom webhook integrations for third-party systems
+ Advanced cost analytics and optimization recommendations
+Support
+For technical support and issue resolution:
+
+Review Logs: Check application and scheduler logs for error details
+Database Connectivity: Verify SQL Server and AWS Secrets Manager access
+GitHub Access: Confirm GitHub token and repository permissions
+Terraform Status: Review terraform.log for infrastructure issues
+Contact Support: Reach out to development team with error logs and environment details
+Support Channels
+GitHub Issues: Report bugs and feature requests
+Documentation: Consult this README and code comments
+Email: engineering@example.com
+Slack: #migration-accelerator channel
+License
+This software is proprietary and confidential. Unauthorized copying, distribution, or use is strictly prohibited.
+
+Code
+Copyright © 2026 SURERAKESHKUMAR Engineering Team
+All Rights Reserved
+Developed by SURERAKESHKUMAR Development Team
+
